@@ -1,8 +1,20 @@
-body{
-    color: aqua;
-    font-family: 'Assistant', sans-serif;}
-p{
-    font-size: 45px;
+body {
+
+    font-family: 'Assistant', sans-serif;
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: right;
+
     font-weight: 300;
-    
+
+}
+
+img {
+    padding-right: 200px;
 }
