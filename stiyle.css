@@ -10,11 +10,24 @@ h1 {
 
 p {
     text-align: right;
-
     font-weight: 300;
-
 }
 
 img {
-    padding-right: 200px;
+    max-width: 80%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin:auto
+}
+
+.container {
+    max-width:750px;
+    margin:auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
