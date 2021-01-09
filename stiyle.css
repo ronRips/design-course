@@ -29,5 +29,16 @@ img {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
 
+}
+
+@media (max-width: 700px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+a{
+    color:red;
 }
