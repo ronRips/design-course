@@ -1,7 +1,7 @@
 body {
     margin: 0;
     line-height: 1.4;
-    
+    text-align: center;
 
 }
 
@@ -11,7 +11,7 @@ body {
 }
 
 .about {
-    background: url(images/__background.jpg) center;
+    background: url(images/background.jpg) center;
     height: 500px;
     text-align: right;
     font-family: 'Suez One', serif;
@@ -46,8 +46,47 @@ body {
 .info {
     font-family: 'Arimo', sans-serif;
     font-weight: 400;
-    background-color:#a99b9b;
+    background-color: #a99b9b;
     font-size: 20px;
     text-align: center;
     padding: 10px;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.pictures img {
+    display: block;
+    margin: auto;
+}
+
+.gallery {
+    margin-top: 40px;
+    font-family: 'Suez One', serif;
+    font-size: 24px;
+}
+
+.gallery h2 {}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 40px;
+    margin: 26px 0;
+    font-size: 20px;
+    color: #000;
+    background-color: #c76b10;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: #d9a674;
 }
