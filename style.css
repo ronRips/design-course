@@ -2,7 +2,7 @@ body {
     margin: 0;
     line-height: 1.4;
     text-align: center;
-
+    font-family: 'Arimo', sans-serif;
 }
 
 .logo img {
@@ -11,11 +11,12 @@ body {
 }
 
 .about {
-    background: url(images/background.jpg) center;
+    background: url(images/background.png) center;
+    background-size: cover;
     height: 500px;
-    text-align: right;
-    font-family: 'Suez One', serif;
+    text-align: center;
     color: white;
+    margin:auto;
 }
 
 .container {
@@ -23,12 +24,10 @@ body {
     margin: auto;
 }
 
-.about .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-height: 500px;
-
+.about .container{
+    display: inline-block;
 }
+
 
 @media (max-width: 700px) {
     .grid .empty {
@@ -38,13 +37,13 @@ body {
 }
 
 .about p {
-    padding: 60px;
     font-size: 36px;
-    text-align: center;
+    padding: 80px 0;
+    
 }
 
 .info {
-    font-family: 'Arimo', sans-serif;
+    
     font-weight: 400;
     background-color: #a99b9b;
     font-size: 20px;
@@ -56,10 +55,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
-
     list-style-type: none;
     padding: 0;
 
+}
+img {
+    max-width: 100%;
 }
 
 .pictures img {
@@ -73,7 +74,9 @@ body {
     font-size: 24px;
 }
 
-.gallery h2 {}
+.gallery h2 {
+    border-bottom: 4px solid;
+}
 
 .button {
     display: inline-block;
@@ -83,10 +86,10 @@ body {
     font-size: 20px;
     color: #000;
     background-color: #c76b10;
-    font-family: 'Arimo', sans-serif;
     font-weight: 700;
 }
 
 .button:hover {
-    background-color: #d9a674;
+    background-color:#d28943;
 }
+
